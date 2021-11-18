@@ -1,0 +1,21 @@
+{
+    "name": "daniel/doctrine-exploit",
+    "require": {
+        "doctrine/dbal": "3.0.0",
+        "symfony/http-foundation": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Exploit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniel Leech",
+            "email": "dan.t.leech@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^5.3"
+    }
+}
